@@ -1,0 +1,20 @@
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  cursor: pointer;
+  width: 70px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgb(55, 55, 255);
+  color: white;
+  font-weight: bold;
+  border: none;
+  transition: background-color .3s ease;
+}
+
+.button:hover {
+  background-color: rgb(65, 65, 183);
+}
